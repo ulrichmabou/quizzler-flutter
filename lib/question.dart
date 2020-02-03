@@ -1,9 +1,8 @@
 class Question {
+  // properties
   String questionText;
   bool questionAnswer;
 
-  Question(String q, bool a) {
-    questionText = q;
-    questionAnswer = a;
-  }
+  // constructor
+  Question(this.questionText, this.questionAnswer);
 }
